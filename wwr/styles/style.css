@@ -21,23 +21,23 @@ body {
     background-color:rgb(129, 166, 247)
 }
 header {
-    background-color:
+    background-color:rgb(202, 242, 252)
 }
 nav a:hover {
-    background-color:
+    background-color:rgb(131, 219, 219)
 }
 .book, .join {
-    background-color:
+    background-color:rgb(215, 229, 250)
 }
 .book:hover, .join:hover {
-    background-color:
+    background-color:rgb(255, 116, 61)
 }
 #background {
-    background-color:
+    background-color:rgb(255, 196, 173)
 }
 .msg {
-    background-color:
+    background-color:darkturquoise
 }
 footer {
-    background-color:
+    background-color:rgb(24, 82, 63)
 }
