@@ -18,10 +18,10 @@ main section {
     height: 725px;
 }
 body {
-    background-color:rgb(255, 215, 199)
+    background-color:rgb(199, 253, 255)
 }
 header {
-    background-color:rgb(202, 242, 252)
+    background-color:rgb(255, 183, 74)
 }
 nav a:hover {
     background-color:rgb(131, 219, 219)
