@@ -14,3 +14,30 @@ nav.a {
 main section {
     text-align: center;
 }
+#background {
+    height: 725px;
+}
+body {
+    background-color:rgb(129, 166, 247)
+}
+header {
+    background-color:
+}
+nav a:hover {
+    background-color:
+}
+.book, .join {
+    background-color:
+}
+.book:hover, .join:hover {
+    background-color:
+}
+#background {
+    background-color:
+}
+.msg {
+    background-color:
+}
+footer {
+    background-color:
+}
