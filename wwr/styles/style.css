@@ -8,7 +8,7 @@ nav.a {
     text-decoration: none;
 }
 nav a:hover {
-    background-color:#0da4af
+    background-color:#0da4af;
     color:black
 }
 #hero-msg h1 {
