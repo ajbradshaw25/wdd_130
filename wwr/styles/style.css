@@ -50,6 +50,20 @@ footer {
     color:#FBB657
 }
 .home-title {
-    color:chocolate
+    color:rgb(255, 143, 62)
 }
-h4 
+h4 {
+    color:black
+}
+.msg h2 {
+    color:#0c4044
+}
+.msg p {
+    color:black
+}
+footer a {
+    color:#0c4044
+}
+footer a:hover {
+    color:black
+}
