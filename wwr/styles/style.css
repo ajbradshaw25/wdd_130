@@ -4,7 +4,7 @@ div.a {
 }
 nav.a {
     text-align: center;
-    color:#2A7378
+    color:#2A7378;
     text-decoration: none;
 }
 nav a:hover {
@@ -33,11 +33,11 @@ header {
     background-color:#2A7378
 }
 .book, .join {
-    background-color:rgb(156, 240, 243)
+    background-color:rgb(156, 240, 243);
     color:black
 }
 .book:hover, .join:hover {
-    background-color:rgb(199, 253, 255)
+    background-color:rgb(199, 253, 255);
     color:black
 }
 #background {
@@ -47,7 +47,7 @@ header {
     background-color:rgb(179, 225, 226)
 }
 footer {
-    background-color:rgb(110, 144, 145)
+    background-color:rgb(110, 144, 145);
     color:#FBB657
 }
 .home-title {
