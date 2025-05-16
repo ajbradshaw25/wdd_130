@@ -4,6 +4,11 @@ div.a {
 }
 nav.a {
     text-align: center;
+    color:#2A7378
+}
+nav a:hover {
+    background-color:#0da4af
+    color:black
 }
 #hero-msg h1 {
     text-align: center;
@@ -26,14 +31,13 @@ body {
 header {
     background-color:#2A7378
 }
-nav a:hover {
-    background-color:#0da4af
-}
 .book, .join {
     background-color:rgb(156, 240, 243)
+    color:black
 }
 .book:hover, .join:hover {
     background-color:rgb(199, 253, 255)
+    color:black
 }
 #background {
     background-color:#FBB657
@@ -43,4 +47,9 @@ nav a:hover {
 }
 footer {
     background-color:rgb(179, 225, 226)
+    color:#FBB657
 }
+.home-title {
+    color:chocolate
+}
+h4 
