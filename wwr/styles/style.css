@@ -5,6 +5,7 @@ div.a {
 nav.a {
     text-align: center;
     color:#2A7378
+    text-decoration: none;
 }
 nav a:hover {
     background-color:#0da4af
@@ -26,7 +27,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(225, 254, 255)
 }
 header {
     background-color:#2A7378
@@ -61,9 +62,18 @@ h4 {
 .msg p {
     color:black
 }
-footer a {
+footer.a {
     color:#0c4044
 }
 footer a:hover {
     color:black
+}
+.icon {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
