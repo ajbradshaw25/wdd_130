@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rock+Salt&display=swap');
+
+:root {
+  --heading-font: "Rock Salt";
+  --paragraph-font: PT Sans, Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto 
