@@ -48,8 +48,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column: 3;
-  grid-row: 4;
+  grid-column-start: 3;
 } 
 .yellow2 {
   width: 100px; 
