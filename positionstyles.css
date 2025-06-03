@@ -38,9 +38,6 @@
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
 }
-.container {
-  position: relative;
-}
 .red2 {
   width: 100px; 
   height: 100px; 
