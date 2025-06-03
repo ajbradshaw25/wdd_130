@@ -38,6 +38,9 @@
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
 }
+.container {
+  position: relative;
+}
 .red2 {
   width: 100px; 
   height: 100px; 
@@ -61,11 +64,18 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  top: 80px;
+  left: 80px;
+  position: absolute;
+  z-index: 2;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  top: 120px;
+  left: 120px;
+  position: absolute;
 } 
 /* Activity 3 styles */ 
 .content3 {
