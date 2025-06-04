@@ -69,7 +69,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  grid-column-gap: 
 }
 .red3 {
   width: 1400px; 
