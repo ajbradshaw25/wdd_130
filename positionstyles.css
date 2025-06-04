@@ -110,10 +110,11 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  display: grid;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 250px; 
+  height: 500px; 
   background-color: red; 
 } 
 .green4 {
