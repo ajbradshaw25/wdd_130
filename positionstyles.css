@@ -192,13 +192,17 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  top: 120px;
+  left: -2px;
+  z-index: 4;
+  position: relative;
 } 
 .yellow6 {
   width: 200px; 
-  height: 600px; 
+  height: 450px; 
   background-color: gold; 
-  top: 200px;
-  left:300px;
+  top: 120px;
+  left:-2px;
   z-index: 3;
   position: relative
 } 
@@ -206,7 +210,7 @@
   width: 400px; 
   height: 400px; 
   background-color: blue; 
-  top:200px;
+  top:20 0px;
   left: -600px; 
   z-index: 2;
   position: relative;
