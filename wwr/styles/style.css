@@ -151,3 +151,6 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
+.card-img, .mountains {
+    width: 100%;
+}
