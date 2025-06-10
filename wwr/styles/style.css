@@ -213,7 +213,7 @@ main section img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: rgb(255, 143, 62);;
     }
     .home-title {
         font-size: 25px;
