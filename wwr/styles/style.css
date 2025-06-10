@@ -48,6 +48,7 @@ header {
     background-color:#2A7378;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 85%;
 }
 .book, .join {
     background-color:rgb(156, 240, 243);
@@ -74,12 +75,16 @@ header {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
     background-color:rgb(103, 181, 184);
     color:#1968b3;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .home-title {
     color:rgb(255, 143, 62);
@@ -133,6 +138,12 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 main section img {
     box-sizing: border-box;
@@ -173,12 +184,9 @@ main section img {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 main {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-#a {
-     padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
