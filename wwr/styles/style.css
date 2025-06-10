@@ -64,12 +64,16 @@ header {
     color:black
 }
 #background {
-    background-color:#FBB657
+    background-color:#FBB657;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .msg {
     background-color:rgb(179, 225, 226);
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 footer {
     background-color:rgb(103, 181, 184);
@@ -153,4 +157,20 @@ main section img {
 }
 .card-img, .mountains {
     width: 100%;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
