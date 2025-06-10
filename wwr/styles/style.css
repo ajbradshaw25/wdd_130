@@ -40,7 +40,9 @@ h2 {
     margin: 0;
 }
 header {
-    background-color:#2A7378
+    background-color:#2A7378;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 .book, .join {
     background-color:rgb(156, 240, 243);
