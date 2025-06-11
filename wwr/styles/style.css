@@ -188,9 +188,9 @@ main section img {
 }
 .homegrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-count: 10;
 }
-
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
