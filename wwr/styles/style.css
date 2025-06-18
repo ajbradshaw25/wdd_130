@@ -6,7 +6,7 @@
 }
 nav a {
     text-align: center;
-    color:#cbfcf9;
+    color:#d9faf8;
     text-decoration: none;
     padding: 35px;
 }
@@ -190,7 +190,6 @@ main section img {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-count: 10;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
