@@ -186,8 +186,9 @@ main section img {
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.homegrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-count: 10;
 }
