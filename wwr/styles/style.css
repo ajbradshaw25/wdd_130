@@ -196,7 +196,6 @@ main section img {
     grid-row: 1/5;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
-    top: 100px;
 }
 #hero-msg2 {
     grid-column: 2/3;
@@ -221,7 +220,7 @@ main section img {
     line-height: 2em;
     padding: 35px;
     grid-column: 6/10;
-    grid-row: 1/2;
+    grid-row: 1/5;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg2 h2 {
