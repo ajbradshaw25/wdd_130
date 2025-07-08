@@ -194,7 +194,12 @@ main section img {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1fr 0;
+}
+.home-grid2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1fr 0;
 }
 .grandcanyon {
     grid-column: 2/5;
@@ -254,7 +259,7 @@ main section img {
 .msg3 {
     position: relative;
     background-color: #ffcb90;
-    line-height: 20px;
+    line-height: 21px;
     width: 600px;
     padding: 35px;
     top: -1680px;
@@ -278,7 +283,7 @@ main section img {
 .msg4 {
     position: relative;
     background-color: rgb(188, 236, 236);
-    line-height: 60px;
+    line-height: 65px;
     width: 1300px;
     padding: 35px;
     top: -4500px;
