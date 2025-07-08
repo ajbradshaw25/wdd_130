@@ -195,14 +195,15 @@ main section img {
     grid-column: 2/5;
     grid-row: 2/4;
     width: 100%;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #292b26;
 }
 .salmonriver {
-    grid-column: 2/5;
-    grid-row: 1/4;
-    height: 700px;
+    position: relative;
+    left: 700px;
+    top: -850px;
+    height: 800px;
     width: 850px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #21221e;
 }
 #hero-msg2 {
     grid-column: 2/3;
@@ -223,12 +224,12 @@ main section img {
     width: 100%;
 }
 .msg2 {
-    background-color:rgb(179, 225, 226);
+    background-color:rgb(188, 236, 236);
     line-height: 2em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 1/5;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #33352e;
 }
 .msg2 h2 {
     color:#0c4044;
@@ -245,20 +246,21 @@ main section img {
     padding-bottom: 15px;
 }
 .msg3 {
-    background-color: #FBB657;
-    line-height: 1em;
-    width: 700px;
+    position: relative;
+    background-color: #ffd190;
+    line-height: 20px;
+    width: 600px;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 1/5;
-    box-shadow: 5px 5px 10px #6f7364;
+    top: -1680px;
+    left: 60px;
+    box-shadow: 5px 5px 10px #383a32;
 }
 .msg3 h2 {
-    color:#582107;
+    color:#5f1103;
     font-family: "Rock Salt", "Helvitica", sanserif;
 }
 .msg3 h4 {
-    color:#582107;
+    color:#5f1103;
     font-family: "Rock Salt", "Helvitica", sansserif;
 }
 .msg3 p {
@@ -268,15 +270,15 @@ main section img {
     padding-bottom: 15px;
 }
 #background2 {
-    background-color:#FBB657;
+    background-color:#ffa450;
     grid-column: 1/11;
     grid-row: 1/7;
 }
 #background3 {
-    background-color:#2A7378;
+    background-color:#2e979e;
     grid-column: 1/11;
     grid-row: 5/8;
-    height: 800px;
+    height: 900px;
 }
 .home-title2 {
     color:rgb(255, 128, 38);
