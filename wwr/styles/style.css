@@ -50,8 +50,12 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+.book {
+    position: relative;
+    top: 50px;
+}
 .book, .join {
-    background-color:rgb(156, 240, 243);
+    background-color:rgb(165, 250, 253);
     color:black;
     text-decoration: none;
     font-family: "PT Sans", "Helvitica", sanserif;
