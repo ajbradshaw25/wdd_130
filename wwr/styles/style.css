@@ -211,9 +211,10 @@ main section img {
 .salmonriver {
     position: relative;
     left: 700px;
-    top: -850px;
-    height: 800px;
-    width: 850px;
+    grid-column: 5/8;
+    grid-row: 5/8;
+    width: 50%;
+    bottom: -75px;
     box-shadow: 5px 5px 10px #21221e;
 }
 #hero-msg2 {
@@ -229,7 +230,6 @@ main section img {
 #hero2 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 #hero-img2 {
     width: 100%;
@@ -262,8 +262,10 @@ main section img {
     line-height: 21px;
     width: 600px;
     padding: 35px;
-    top: -1680px;
+    grid-column:1/11;
+    grid-row:4/8;
     left: 60px;
+    bottom: 750px;
     box-shadow: 5px 5px 10px #383a32;
 }
 .msg3 h2 {
@@ -281,12 +283,13 @@ main section img {
     padding-bottom: 15px;
 }
 .msg4 {
-    position: relative;
+    
     background-color: rgb(188, 236, 236);
     line-height: 65px;
     width: 1300px;
     padding: 35px;
-    top: -4500px;
+    grid-column: 3/11;
+    grid-row: 3/8;
     left: 100px;
     box-shadow: 5px 5px 10px #383a32;
 }
@@ -316,19 +319,15 @@ main section img {
 #background3 {
     background-color:#2e979e;
     grid-column: 1/11;
-    grid-row: 5/8;
-    height: 900px;
-    padding: 0;
+    grid-row: 1/7;
+    top: 200px;
+    height: 1000px;
 }
 #background4 {
     position: relative;
     background-color:#fdb058;
-    top: -1600px;
     left: -1px;
-    bottom: 2200px;
-    height: 3000px;
     width: 100%;
-    padding: 0;
 }
 .home-title2 {
     color:rgb(255, 128, 38);
