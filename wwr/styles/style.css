@@ -196,13 +196,18 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1fr 0;
 }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 4.1fr 2.2fr 4fr 1.1fr;
+    grid-template-rows: 0.1fr 1.4fr 1.8fr 0.1fr 0.1fr 1fr 1fr;
+}
 .home-grid2 {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1fr 0;
 }
 .grandcanyon {
-    grid-column: 2/5;
+    grid-column: 2/3;
     grid-row: 2/4;
     width: 100%;
     box-shadow: 5px 5px 10px #292b26;
@@ -238,7 +243,7 @@ main section img {
     background-color:rgb(188, 236, 236);
     line-height: 2em;
     padding: 35px;
-    grid-column: 6/10;
+    grid-column: 4/5;
     grid-row: 1/5;
     box-shadow: 5px 5px 10px #33352e;
 }
@@ -262,8 +267,8 @@ main section img {
     line-height: 21px;
     width: 600px;
     padding: 35px;
-    grid-column:1/11;
-    grid-row:4/8;
+    grid-column:2/4;
+    grid-row:2/6;
     left: 60px;
     bottom: 750px;
     box-shadow: 5px 5px 10px #383a32;
@@ -313,21 +318,17 @@ main section img {
 }
 #background2 {
     background-color:#ffa450;
-    grid-column: 1/11;
-    grid-row: 1/7;
+    grid-column: 1/6;
+    grid-row: 1/5;
 }
 #background3 {
     background-color:#2e979e;
-    grid-column: 1/11;
-    grid-row: 1/7;
-    top: 200px;
-    height: 1000px;
+    grid-column: 1/6;
+    grid-row: 5/10;
 }
 #background4 {
     position: relative;
     background-color:#fdb058;
-    left: -1px;
-    width: 100%;
 }
 .home-title2 {
     color:rgb(255, 128, 38);
