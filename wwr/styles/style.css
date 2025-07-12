@@ -90,6 +90,16 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+footer2 {
+    background-color:rgb(103, 181, 184);
+    color:#1968b3;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+}
 .home-title {
     color:rgb(255, 143, 62);
     font-family:"Rock Salt", "Helvitica", sanserif;
@@ -199,7 +209,7 @@ main section img {
 .rivers-grid {
     display: grid;
     grid-template-columns: 0.8fr 0.2fr 1.4fr 1.4fr 0.8fr 1.1fr 1.5fr 1.9fr 0.3fr 0.6fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.8fr 1fr 8.3fr 0.8fr 1.3fr 1.4fr 2.2fr 14.2fr 14.6fr 14.6fr 14.6fr 1.6fr 3.5fr;
+    grid-template-rows: 0.1fr 0.4fr 1.4fr;
     width: 100%;
 }
 .home-grid2 {
@@ -215,9 +225,11 @@ main section img {
     margin: 0;
 }
 .salmonriver {
-    grid-column: 7/10;
-    grid-row: 2/4;
-    width: 100%;
+    grid-column: 6/9;
+    grid-row: 2/3;
+    width: 110%;
+    align-self: center;
+    height: 90%;
     box-shadow: 5px 5px 10px #21221e;
 }
 #hero-msg2 {
@@ -265,11 +277,11 @@ main section img {
 .msg3 {
     position: relative;
     background-color: #ffcb90;
-    line-height: 21px;
+    line-height: 28px;
     width: 600px;
     padding: 35px;
     grid-column: 2/6;
-    grid-row: 9/13;
+    grid-row: 2/3;
     box-shadow: 5px 5px 10px #383a32;
 }
 .msg3 h2 {
@@ -291,12 +303,12 @@ main section img {
 .msg4 {
     
     background-color: rgb(188, 236, 236);
-    line-height: 65px;
-    width: 100%;;
-    padding: 35px;
+    line-height: 50px;
+    padding: 100px;
     grid-column: 3/9;
-    grid-row: 4/8;
+    grid-row: 3/7;
     box-shadow: 5px 5px 10px #383a32;
+    height: 95%;
 }
 .msg4 h1 {
     color:#0c4044;
@@ -325,12 +337,13 @@ main section img {
 #background3 {
     background-color:#2e979e;
     grid-column: 1/11;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 #background4 {
     background-color:#fdb058;
     grid-column: 1/11;
-    grid-row: 4/5;
+    grid-row: 3/7;
+    height: 103%;
 }
 .home-title2 {
     color:rgb(255, 128, 38);
