@@ -140,6 +140,17 @@ h4 {
     font-size: .8em;
     padding-bottom: 15px;
 }
+.msg5 h1 {
+    color:#0c2044;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 50px;
+}
+.msg5 p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer a {
     color:#000000;
     text-decoration: none;
@@ -206,10 +217,11 @@ main section img {
     grid-row: 2/7;
     background-color:rgb(198, 242, 255);
     box-shadow: 5px 5px 10px #424242;
-    line-height: 2.5em;
+    line-height: 2em;
     width: 100%;
     padding: 10px;
     margin: 20px;
+    text-align: center;
 }
 .camping-card {
     grid-column: 5/7;
