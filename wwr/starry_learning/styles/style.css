@@ -111,13 +111,25 @@ header {
     margin-top: 5%;
 }
 .msg7 {
-    background-color:rgb(144, 229, 255);
-    line-height: 1.9em;
+    line-height: 1.3em;
     padding: 35px;
-    grid-column: 6/11;
-    grid-row: 9/11;
-    height: 80%;
+    grid-column: 6/9;
+    grid-row: 9/14;
+    height: 100%;
     margin-top: 5%;
+    text-align: center;
+}
+.msg7 h1 {
+    color:#471d00;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.msg7 p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#0870a0;
@@ -151,10 +163,33 @@ footer2 {
     margin-top: 100px;
 }
 .home-titles h3 {
-    color: #78c9ff;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 19px;
     font-family: "PT Sans";
-    margin-top: 25px;
+    position: relative;
+    top: 75px;
+    text-shadow: 1px 1px 2px rgb(255, 94, 0), 0 0 1em rgb(4, 78, 146), 0 0 0.2em rgb(0, 0, 102);
+}
+.msg7 {
+    line-height: 1.3em;
+    padding: 35px;
+    grid-column: 6/9;
+    grid-row: 9/14;
+    height: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+.msg7 h1 {
+    color:#471d00;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.msg7 p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 h4 {
     color:black
@@ -309,11 +344,18 @@ main section img {
     height: 75%;
     box-shadow: 5px 5px 10px #3f3f3f;
 }
+.orion {
+    grid-column: 2/5;
+    grid-row: 10/13;
+    width: 130%;
+    height: 120%;
+    box-shadow: 5px 5px 10px #3f3f3f;
+}
 .defined {
     grid-column: 9/12;
-    grid-row: 10/11;
-    width: 90%;
-    height: 100%;
+    grid-row: 10/13;
+    width: 110%;
+    height: 120%;
     box-shadow: 5px 5px 10px #3f3f3f;
 }
 .home-grid {
