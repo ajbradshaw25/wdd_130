@@ -157,7 +157,7 @@ footer2 {
     margin-top: 100px;
 }
 .home-titles {
-    color:rgb(255, 143, 62);
+    color:rgb(235, 133, 17);
     font-family:"Nothing You Could Do", "Helvitica", sanserif;
     font-size: 4em;
     margin-top: 100px;
@@ -169,6 +169,20 @@ footer2 {
     position: relative;
     top: 75px;
     text-shadow: 1px 1px 2px rgb(255, 94, 0), 0 0 1em rgb(4, 78, 146), 0 0 0.2em rgb(0, 0, 102);
+}
+.deepspace-intro {
+    color:rgb(142, 238, 255);
+    font-family:"Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 4em;
+    margin-top: 100px;
+}
+.deepspace-intro p {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "PT Sans";
+    position: relative;
+    top: 75px;
+    text-shadow: rgb(0, 143, 119) 1px 0 10px;
 }
 .msg7 {
     line-height: 1.3em;
