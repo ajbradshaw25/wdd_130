@@ -100,6 +100,19 @@ header {
     margin-bottom: -100px;
     margin-top: 25px;
 }
+#background-orange {
+    background-color:#ffa641;
+    grid-column: 1/25;
+    grid-row: 8/40;
+    margin-bottom: -80px;
+    margin-top: 25px;
+}
+#background-andromeda {
+    background-color:#7c4c15;
+    grid-column: 6/25;
+    grid-row: 8/14;
+    margin-top: 25px;
+}
 .msg {
     background-color:rgb(144, 229, 255);
     line-height: 1.9em;
@@ -126,6 +139,94 @@ header {
     margin-bottom: 50px;
 }
 .msg7 p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msggalaxy {
+    line-height: 2.5em;
+    padding: 35px;
+    grid-column: 6/9;
+    grid-row: 15/16;
+    height: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+.msggalaxy h1 {
+    color:#a73500;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.msggalaxy h3 {
+    color:#b44200;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-weight: 900;
+    font-size: .8em;
+    padding: 15px;
+}
+.msggalaxy p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
+    text-shadow: rgb(148, 59, 0) 1px 0 10px;
+}
+.msggalaxies {
+    line-height: 2em;
+    padding: 35px;
+    grid-column: 1/4;
+    grid-row: 9/20;
+    height: 100%;
+    margin-top: -100;
+    text-align: center;
+}
+.msggalaxies h1 {
+    color:#2ae9d9;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 80px;
+    margin-bottom: 70px;
+    position: relative;
+    left: 75px;
+    text-shadow: rgb(5, 90, 2) 1px 0 10px;
+}
+.msggalaxies h3 {
+    color:#00524b;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-bottom: 15px;
+    position: relative;
+    left: 75px;
+    text-shadow: rgb(0, 255, 149) 1px 0 10px;
+}
+.msggalaxies p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
+    position: relative;
+    left: 75px;
+    text-shadow:
+  1px 1px 2px rgb(91, 245, 168), 0 0 1em rgb(25, 25, 190), 0 0 0.2em rgb(255, 158, 163);
+}
+.msggalaxy2 {
+    line-height: 1.3em;
+    padding: 35px;
+    grid-column: 6/9;
+    grid-row: 18/20;
+    height: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+.msggalaxy2 h1 {
+    color:#471d00;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.msggalaxy2 p {
     color:black;
     font-family: "PT Sans", "Helvitica", sanserif;
     font-size: .8em;
@@ -329,15 +430,61 @@ main section img {
     text-align: center;
 }
 .msgnebula {
-    grid-column: 10/15;
-    grid-row: 2/7;
+    grid-column: 4/10;
+    grid-row: 2/5;
     background-color:rgb(198, 242, 255);
     box-shadow: 5px 5px 10px #424242;
-    line-height: 2em;
+    line-height: 2.8em;
     width: 100%;
     padding: 10px;
     margin: 20px;
     text-align: center;
+    position:relative;
+    left: -50px;
+}
+.msgnebula h1 {
+    color:#0c2044;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 50px;
+}
+.msgnebula h3 {
+    color:#0c2044;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 28px;
+}
+.msgnebula p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 1px;
+}
+.msgstars {
+    grid-column: 1/1;
+    grid-row: 3/4;
+    background-color:rgb(198, 242, 255);
+    box-shadow: 5px 5px 10px #424242;
+    line-height: 1.5em;
+    width: 130%;
+    padding: 10px;
+    margin: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.msgstars h1 {
+    color:#0c2044;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 50px;
+}
+.msgstars h3 {
+    color:#0c2044;
+    font-family: "Nothing You Could Do", "Helvitica", sanserif;
+    font-size: 28px;
+}
+.msgstars p {
+    color:black;
+    font-family: "PT Sans", "Helvitica", sanserif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg6 {
     grid-column: 8/13;
@@ -388,6 +535,14 @@ main section img {
     height: 120%;
     box-shadow: 5px 5px 10px #3f3f3f;
 }
+.stellar {
+    grid-column: 6/9;
+    grid-row: 8/15;
+    width: 105%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #141414;
+    margin-top: 55px;
+}
 .defined {
     grid-column: 9/12;
     grid-row: 10/13;
@@ -398,7 +553,7 @@ main section img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1/4fr 1/2fr 2.5fr 1fr 1fr 1/2fr 1/2fr 1/2fr;
-    grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1fr 1/4fr 1/2fr 1/2fr 1/2fr 1fr 1fr;
+    grid-template-rows: 1fr 1/2fr 3fr 1/4fr 1/2fr 1fr 1fr 1/2fr 3fr 1/2fr 1fr 1/4fr 1/2fr 1/2fr 1/2fr 1fr 1fr;
 }
 .rivers-grid {
     display: grid;
@@ -409,7 +564,12 @@ main section img {
 .home-grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1/2fr 1/2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1/2fr 1/4fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1/2fr 1/2fr 1fr 1fr 1fr 1fr 1fr 1fr 1/2fr 1/2fr 1/2fr 1fr;
+}
+.home-grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1/2fr 1/4fr 2.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1/2fr 1fr 1fr 1fr 1/2fr 3fr 1/2fr 1/2fr 1/2fr 1/2fr 1fr 1fr;
 }
 .grandcanyon {
     grid-column: 3/5;
