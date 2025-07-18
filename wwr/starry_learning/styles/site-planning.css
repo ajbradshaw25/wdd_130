@@ -5,10 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #34d6ff;
+  --primary-color: #74d8f1;
   --secondary-color: #0870a0;
   --accent1-color: #f59527;
-  --accent2-color: #ffa826;
+  --accent2-color: #f5b75a;
+  --accent3-color: #36d7e2;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Nothing You Could Do";
@@ -74,10 +75,10 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #bdbdbd;
 }
 .colors td{
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
 
@@ -90,8 +91,11 @@ p {
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2 {
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
 }
 
 p.colored {
