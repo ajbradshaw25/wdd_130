@@ -258,18 +258,18 @@ footer2 {
     margin-top: 100px;
 }
 .home-titles {
-    color:rgb(235, 133, 17);
+    color:rgb(52, 198, 235);
     font-family:"Nothing You Could Do", "Helvitica", sanserif;
     font-size: 4em;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .home-titles h3 {
     color: #ffffff;
     font-size: 19px;
     font-family: "PT Sans";
     position: relative;
-    top: 75px;
-    text-shadow: 1px 1px 2px rgb(255, 94, 0), 0 0 1em rgb(4, 78, 146), 0 0 0.2em rgb(0, 0, 102);
+    top: 25px;
+    text-shadow: 1px 1px 2px rgb(255, 77, 77), 0 0 1em rgb(0, 25, 136), 0 0 0.2em rgb(14, 116, 199);
 }
 .deepspace-intro {
     color:rgb(142, 238, 255);
@@ -408,6 +408,9 @@ main section img {
 }
 #hero-img {
     width: 100%;
+    -webkit-filter:contrast(50%);
+    filter:saturate(120%);
+    filter:contrast(100%)
 }
 #hero-msg {
     grid-column: 2/3;
